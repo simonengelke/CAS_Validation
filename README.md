@@ -7,3 +7,4 @@ CAS Number Validation following to Wikipedia (http://en.wikipedia.org/wiki/CAS_r
 
 A CASRN is separated by hyphens into three parts, the first consisting of up to 7 digits, the second consisting of two digits, and the third consisting of a single digit serving as a check digit. The check digit is found by taking the last digit times 1, the previous digit times 2, the previous digit times 3 etc., adding all these up and computing the sum modulo 10. For example, the CAS number of water is 7732-18-5: the checksum 5 is calculated as (8×1 + 1×2 + 2×3 + 3×4 + 7×5 + 7×6) = 105; 105 mod 10 = 5.
 
+The official website for the CAS check digit: http://www.cas.org/content/chemical-substances/checkdig
